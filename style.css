@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+#picture {
+    width: 400;
+    height: 300;
+    border-radius: 20%;
+}
+
+h2 {
+    font-family: inherit;
+    font-size: 25px;
+}
+
+#FavFood {
+    font-family: serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+picture {
+    transition: transform 0.2s;
+}
+
+picture:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
